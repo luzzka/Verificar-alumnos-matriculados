@@ -53,6 +53,8 @@ for fila in filas[1:]:
 
 df = pd.DataFrame(data, columns=["Código", "Nombre"])
 
+# aqui un comentario :)
+
 # Mostrar resultados
 print("Información del curso:")
 for clave, valor in info.items():
