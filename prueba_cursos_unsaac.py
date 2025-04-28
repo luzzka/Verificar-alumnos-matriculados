@@ -39,7 +39,7 @@ for fila in filas_info:
         info[clave] = valor
 
 # === Extraer estudiantes ===
-tabla_estudiantes = tablas[-1]
+'''tabla_estudiantes = tablas[-1]
 soup_tabla = BeautifulSoup(tabla_estudiantes.get_attribute("outerHTML"), "html.parser")
 
 filas = soup_tabla.find_all("tr")
@@ -51,9 +51,8 @@ for fila in filas[1:]:
         nombre = celdas[2].text.strip()
         data.append([codigo, nombre])
 
-df = pd.DataFrame(data, columns=["Código", "Nombre"])
+df = pd.DataFrame(data, columns=["Código", "Nombre"])'''
 
-# aqui un comentario :)
 
 # Mostrar resultados
 print("Información del curso:")
@@ -61,6 +60,7 @@ for clave, valor in info.items():
     print(f"  {clave}: {valor}")
 
 print("Estudiantes:")
-print(df.head())
+#print(df.head())
+print(info)
 
 driver.quit()
