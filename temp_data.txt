@@ -1,0 +1,3097 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+<head>
+<title>.::Centro de Computo Unsaac::.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="style_menu.css" />
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<!--<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />-->
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+<script LANGUAGE="Javascript" SRC="rollover/engine/estadistica/charts/JSClass/FusionCharts.js"></script>
+
+
+<!--  Windows MOdal 
+   
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+  
+    <script>
+
+
+
+		// alert("PREGUNTAS FRECUENTES "  +"\n"
+        //     +"\n"
+		// 	+"PAGOS DE MATRICULA"  +"\n"
+        //     +"Tiene que pagar su matricula  en linea, (passarela - PayToPer\u00FA) seg\u00FAn este link http://servicios.unsaac.edu.pe/pagos/inicio" +"\n"
+		// 	+"\n"
+		// 	+"ATENCION SOLO POR CORREO INSTITUCIONAL" +"\n"
+		// 	+"Por favor utilizar solo el correo institucional para hacer consultas o pedidos; Si tiene problemas para acceder a su cuenta de correo institucional comun\u00EDquese con la Srta Evelyn Arambur\u00FA Cornejo a su correo evelyn.aramburu@unsaac.edu.pe" +"\n"
+		// 	+"\n"
+		// 	+"BAJO  RENDIMIENTO" +"\n"
+		// 	+"El levantamiento de bajo rendimiento lo realizar\u00E1 usted, mediante su p\u00E1gina de matr\u00EDculas, igual que en el semestre 2019-1, con la clave de la resoluci\u00F3n que ser\u00E1 emitida y enviada a su correo institucional en cuanto estas sean generadas por la facultad. " +"\n"
+		// 	+"\n"
+		// 	+"ENCUESTAS" +"\n"
+		// 	+"Las encuestas est\u00E1n siendo enviadas a vuestros correos institucionales,  pero es un proceso largo se pide un poco de paciencia. De no llegar hasta el lunes 27 de Abril del presente, comun\u00EDquese con el Ing. Pedro D\u00EDaz al email pedro.diaz@unsaac.edu.pe con el t\u00EDtulo SOLICITO ENCUESTA. " +"\n"
+		// 	+"\n"
+		// 	+"CURSOS DIRIGIDOS" +"\n"
+		// 	+"Los cursos dirigidos ser\u00E1n procesados despu\u00E9s que concluyan las matriculas regulares, estar pendiente puesto que es un tr\u00E1mite que se realiza en las escuelas profesionales y la facultad. " +"\n"
+		// 	+"\n"
+		// 	+"ALUMNO INGRESANTE" +"\n"
+		// 	+"Los ingresantes en el semestre 2020-1 est\u00E1n a la espera del informe de la Direcci\u00F3n General de Admisi\u00F3n, cualquier comunicaci\u00F3n ser\u00E1 por la P\u00E1gina de la UNSAAC. Para mayor informaci\u00F3n comun\u00EDquese con la Direcci\u00F3n General de Admisi\u00F3n." +"\n"
+		// 	+"\n"
+		// 	+"REINICIO DE ESTUDIOS" +"\n"
+		// 	+"Le informo que el cronograma de  Calendario AcadÃ©mico  para solicitar reinicio de estudios concluyÃ³ y si no realizÃ³ el trÃ¡mite en su debida oportunidad debe esperar al prÃ³ximo semestre acad\u00E9mico. Si usted realiz\u00F3 el tr\u00E1mite correspondiente y tiene la resoluci\u00F3n puede enviar una imagen a cualquiera de los correos de la Unidad del Centro de Computo para su ejecuci\u00F3n. Si no recogi\u00F3 la resoluci\u00F3n de la facultad comunicarse con dicha facultad. " +"\n"
+		// 	+"\n"
+		// 	+"PARA HOMOLOGAR" +"\n"
+		// 	+"Las homologaciones est\u00E1n siendo procesadas de manera normal. Si se cuenta con la resoluci\u00F3n debe enviar una imagen de esta a cualquiera de los correos de la unidad del Centro de Computo." +"\n"
+		// 	+"\n"
+		// 	+"TITULADOS O GRADUADOS. (Segunda Carrera)" +"\n"
+		// 	+"Los alumnos que est\u00E9n cursando su segunda carrera ya perdieron la gratuidad de la enseÃ±anza y no est\u00E1n considerados en la exoneraci\u00F3n excepcional del semestre 2020-1" +"\n"
+		// 	+"\n"
+		// 	+"MATRICULA DE PRACTICAS PRE PROFESIONAL" +"\n"
+		// 	+"El proceso de matr\u00EDculas en Practicas Pre Profesionales es diverso y depende de las escuelas profesionales. Puede comunicarse con su director mediante tel\u00E9fono buscando el numero en el siguiente link (colocar como hiperv\u00EDnculo el directorio telef\u00F3nico)" +"\n"
+		// 	+"\n"
+		// 	+"MATRICULA EGRESANTE Y NO REGULAR" +"\n"
+		// 	+"Las solicitudes ser\u00E1n realizadas en el sistema de matr\u00EDculas en las opciones nuevas a\u00F1adidas al sistema de cada estudiante. Si la solicitud es aprobada usted podr\u00E1 registrar su matr\u00EDcula en ese mismo momento" +"\n"
+		// 	+"\n"
+        //     +"GRACIAS.");
+
+
+	</script>
+<!--  Windows MOdal Fin-->
+<script>
+function popup() {
+open('poppup.html','','top=100,left=100,width=600,height=400') ;
+}
+</script>
+
+</head>
+<body> <!--onload="popup()">-->
+
+
+<div id="main_container">
+  <div id="header">
+    <div ><img src="images/logoccomputo_horizontal.png"  style="width:110px"   align="left" alt=""/></div>
+	<!-- <div class="logo"><img src="images/logoccomputo_horizontal.png"  style="width:110px"   align="left" alt=""/></div> -->
+  </div>
+  
+  <div class="menu">
+	<ul class="menu2">
+	<li class="top"><a href="index.php" id="Inicio" class="top_link"><span>Inicio</span></a></li>
+   	<li class="top"><a href="#" class="top_link">|</a></li>
+	<li class="top"><a href="#" id="matriculas" class="top_link"><span class="down">Procesos</span><!--[if gte IE 7]><!--></a><!--<![endif]-->
+		<!--[if lte IE 6]><table><tr><td><![endif]-->
+		<ul class="sub">
+			<li><a href="alumno/">Matriculas</a></li>
+			<!-- <li><a href="http://bienestar.unsaac.edu.pe">Matriculas</a></li> -->
+     		<li><a href="docente/">Docentes</a></li>
+			<li><a href="docenteanterior/">Docentes Semestre 2022-1(regularizar notas)</a></li>
+		</ul>
+		<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+       	<li class="top"><a href="#" class="top_link">|</a></li>
+	<li class="top"><a href="#" id="consultas" class="top_link"><span class="down">Consultas</span><!--[if gte IE 7]><!--></a><!--<![endif]-->
+		<!--[if lte IE 6]><table><tr><td><![endif]-->
+		<ul class="sub">
+			<li><a href="?op=catalog">Catalogos</a></li>
+			<li><a href="?op=pagos">Escalas de Pago</a>
+			<li><a href="?op=recuclave">Recuperacion de Clave</a>
+			<li><a href="?op=mtobs">Matriculas Observadas</a></li>
+			<li><a href="?op=alcurso">Alumnos por Curso</a></li>
+			<li><a href="?op=planes">Planes de Estudio</a></li>
+		
+		</ul>
+		<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+       	<li class="top"><a href="#" class="top_link">|</a></li>
+	<li class="top"><a href="/wiki" id="wiki" class="top_link">Wiki</a></li>
+       	<li class="top"><a href="#" class="top_link">|</a></li>
+  	<li class="top"><a href="index.php" id="ebooks" class="top_link">Ebooks</a></li>
+       	<li class="top"><a href="#" class="top_link">|</a></li>
+	<li class="top"><a href="#" id="services" class="top_link"><span class="down">Intranet</span><!--[if gte IE 7]><!--></a><!--<![endif]-->
+    		<!--[if lte IE 6]><table><tr><td><![endif]-->
+		<ul class="sub">
+			<li><a href="jdpto/">Jefes de Dpto.</a></li>
+			<li><a href="administrativo/">Administrativos</a></li>
+        	<li><a href="?op=obu">OBU</a></li>
+   			<li><a href="coordinador/">Coordinadores</a></li>
+		</ul>
+		<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+        </li>
+</ul>
+  </div>
+  
+  
+  
+  <div class="center_content">
+  
+    <div class="center_left">
+		
+		
+		
+	  
+
+<div style="text-align:center;color:#990000; font-size:16px;font-weight:bold">
+				CATALOGO SEMESTRE:2025-1<br/>INGENIERÍA INFORMÁTICA Y DE SISTEMAS</div>
+				<div style="text-align:center;color:#990000; font-size:14px;font-weight:bold;text-decoration:underline"><br/>DETALLE DE ASIGNATURAS</div><table id="hor-minimalist-b" width="85%" >
+					<thead>
+						<tr>
+							<td >Nro</td><td>CURSO</td><td colspan="2">NOMBRE DE CURSO</td>
+							<td>CR</td><td>CAT</td><td>REQUISITO</td>
+							<td>N° SEM</td>
+							<td>OBS</td>
+							<td>CURRICULA</td>
+						</tr>
+					</thead><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>1</td>
+			    <td>IF619AIN</td>
+			    <td>ANALISIS DE DATOS EMPRESARIALES</td><td></td>
+			    <td>03</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold"></td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>FALCON-HUALLPA-ELIDA</td><td>MA</td><td>[14-16]</td>
+						     <td>T</td><td></td>
+						     <td>IN201</td><td  style="text-align:left">02</td></tr><tr><td>FALCON-HUALLPA-ELIDA</td><td >JU</td><td>[14-16]</td>
+						        <td>L</td><td></td>
+						        <td>IN301</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>2</td>
+			    <td>IF061AIN</td>
+			    <td>CORO</td><td></td>
+			    <td>02</td>
+			    <td>AEX</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">60 Creds.</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">0</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>DUEÑAS-JIMENEZ-RAY</td><td >MA</td><td>[16-18]</td>
+						        <td>P</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr><td>DUEÑAS-JIMENEZ-RAY</td><td >JU</td><td>[16-18]</td>
+						        <td>P</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>3</td>
+			    <td>IF662AIN</td>
+			    <td>DEEP LEARNING</td><td></td>
+			    <td>04</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF652</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">0</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>ALZAMORA-PAREDES-ROBERT</td><td >LU</td><td>[07-09]</td>
+						        <td>L</td><td></td>
+						        <td>IN301</td><td  style="text-align:left">02</td></tr><tr><td>ALZAMORA-PAREDES-ROBERT</td><td >MI</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN206</td><td  style="text-align:left">02</td></tr><tr><td>ALZAMORA-PAREDES-ROBERT</td><td >VI</td><td>[07-08]</td>
+						        <td>T</td><td></td>
+						        <td>IN206</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>4</td>
+			    <td>IF616AIN</td>
+			    <td>DESARROLLO DE SOFTWARE II</td><td></td>
+			    <td>02</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF614</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">0</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>GAMARRA-SALAS-JISBAJ</td><td >MA</td><td>[16-18]</td>
+						        <td>L</td><td></td>
+						        <td>IN301</td><td  style="text-align:left">02</td></tr><tr><td>GAMARRA-SALAS-JISBAJ</td><td >JU</td><td>[16-18]</td>
+						        <td>L</td><td></td>
+						        <td>IN301</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>5</td>
+			    <td>IF484AIN</td>
+			    <td>EMPRENDIMIENTO E INNOVACION</td><td></td>
+			    <td>03</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF482</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">0</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>FLORES-PACHECO-LINO PRISCILIANO</td><td >LU</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">02</td></tr><tr><td>FLORES-PACHECO-LINO PRISCILIANO</td><td >MI</td><td>[09-11]</td>
+						        <td>P</td><td></td>
+						        <td>IN206</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>6</td>
+			    <td>ME359ZIN</td>
+			    <td>ESTADISTICA APLICADA</td><td></td>
+			    <td>04</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">ME352</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">0</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="2">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td></td><td ></td><td>[00-00]</td>
+						        <td></td><td></td>
+						        <td></td><td  style="text-align:left">00</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>7</td>
+			    <td>ME358ZIN</td>
+			    <td>ESTADISTICA INFERENCIAL</td><td></td>
+			    <td>04</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">ME352</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">0</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="2">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td></td><td ></td><td>[00-00]</td>
+						        <td></td><td></td>
+						        <td></td><td  style="text-align:left">00</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>8</td>
+			    <td>IF553AIN</td>
+			    <td>LENGUAJE ENSAMBLADOR</td><td></td>
+			    <td>03</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF550</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">0</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>LAVILLA-ALVAREZ-VANESA</td><td >LU</td><td>[07-09]</td>
+						        <td>L</td><td></td>
+						        <td>IN304</td><td  style="text-align:left">02</td></tr><tr><td>PALOMINO-OLIVERA-EMILIO</td><td >MI</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN203</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>9</td>
+			    <td>IF653AIN</td>
+			    <td>MINERIA DE DATOS</td><td></td>
+			    <td>04</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF652</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">0</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="5">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>LAVILLA-ALVAREZ-VANESA</td><td >LU</td><td>[16-18]</td>
+						        <td>L</td><td>A</td>
+						        <td>IN301</td><td  style="text-align:left">02</td></tr><tr><td>MONTOYA-CUBAS-CARLOS FERNANDO</td><td >LU</td><td>[16-18]</td>
+						        <td>L</td><td>B</td>
+						        <td>IN302</td><td  style="text-align:left">02</td></tr><tr><td>MONTOYA-CUBAS-CARLOS FERNANDO</td><td >MI</td><td>[16-18]</td>
+						        <td>T</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">02</td></tr><tr><td>MONTOYA-CUBAS-CARLOS FERNANDO</td><td >VI</td><td>[16-17]</td>
+						        <td>T</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>10</td>
+			    <td>IF554AIN</td>
+			    <td>REDES DE COMPUTADORAS II</td><td></td>
+			    <td>04</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF552</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">0</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>VILLAFUERTE-SERNA-RONY</td><td >MA</td><td>[16-18]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">02</td></tr><tr><td>VILLAFUERTE-SERNA-RONY</td><td >JU</td><td>[16-18]</td>
+						        <td>L</td><td></td>
+						        <td>IN304</td><td  style="text-align:left">02</td></tr><tr><td>VILLAFUERTE-SERNA-RONY</td><td >VI</td><td>[17-18]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>11</td>
+			    <td>IF556AIN</td>
+			    <td>SISTEMAS EMBEBIDOS</td><td></td>
+			    <td>04</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF551</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">0</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>PILLCO-QUISPE-JOSE MAURO</td><td >LU</td><td>[14-16]</td>
+						        <td>L</td><td></td>
+						        <td>IN301</td><td  style="text-align:left">02</td></tr><tr><td>PILLCO-QUISPE-JOSE MAURO</td><td >MI</td><td>[14-16]</td>
+						        <td>T</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr><td>PILLCO-QUISPE-JOSE MAURO</td><td >VI</td><td>[15-16]</td>
+						        <td>T</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>12</td>
+			    <td>IF618ZIN</td>
+			    <td>TOPICOS AVANZADOS EN INGENIERIA DE SOFTWARE</td><td></td>
+			    <td>04</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF614</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">0</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="2">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td></td><td ></td><td>[00-00]</td>
+						        <td></td><td></td>
+						        <td></td><td  style="text-align:left">00</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>13</td>
+			    <td>MEG01AIN</td>
+			    <td>ÁLGEBRA Y GEOMETRÍA ANALÍTICA</td><td></td>
+			    <td>04</td>
+			    <td>ESG</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">1</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>TORRES-SALGUERO-MIRTHA</td><td >MA</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>TORRES-SALGUERO-MIRTHA</td><td >JU</td><td>[07-09]</td>
+						        <td>P</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>TORRES-SALGUERO-MIRTHA</td><td >VI</td><td>[08-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>14</td>
+			    <td>MEG01BIN</td>
+			    <td>ÁLGEBRA Y GEOMETRÍA ANALÍTICA</td><td></td>
+			    <td>04</td>
+			    <td>ESG</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">1</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>CJUNO-ROQUE-TIMOTEO</td><td >MA</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr><td>CJUNO-ROQUE-TIMOTEO</td><td >JU</td><td>[07-09]</td>
+						        <td>P</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr><td>CJUNO-ROQUE-TIMOTEO</td><td >VI</td><td>[08-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>15</td>
+			    <td>MEG02AIN</td>
+			    <td>CÁLCULO I</td><td></td>
+			    <td>04</td>
+			    <td>ESG</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">1</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>TTITO-TTICA-ELEUTERIA</td><td >LU</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>TTITO-TTICA-ELEUTERIA</td><td >MI</td><td>[11-13]</td>
+						        <td>P</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>TTITO-TTICA-ELEUTERIA</td><td >VI</td><td>[11-12]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>16</td>
+			    <td>MEG02BIN</td>
+			    <td>CÁLCULO I</td><td></td>
+			    <td>04</td>
+			    <td>ESG</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">1</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>LAVILLA-ILLANES-JUSTO</td><td >LU</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr><td>LAVILLA-ILLANES-JUSTO</td><td >MI</td><td>[11-13]</td>
+						        <td>P</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr><td>LAVILLA-ILLANES-JUSTO</td><td >VI</td><td>[11-12]</td>
+						        <td>T</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>17</td>
+			    <td>CBG01AIN</td>
+			    <td>ECOLOGÍA Y MEDIO AMBIENTE</td><td></td>
+			    <td>03</td>
+			    <td>ESG</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">1</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>CANO-CORDOVA-YOVANA</td><td >MA</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>CANO-CORDOVA-YOVANA</td><td >JU</td><td>[11-13]</td>
+						        <td>P</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>18</td>
+			    <td>CBG01BIN</td>
+			    <td>ECOLOGÍA Y MEDIO AMBIENTE</td><td></td>
+			    <td>03</td>
+			    <td>ESG</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">1</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>ALEGRE-PALOMINO-CYNTHYA</td><td >MA</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr><td>ALEGRE-PALOMINO-CYNTHYA</td><td >JU</td><td>[11-13]</td>
+						        <td>P</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>19</td>
+			    <td>FIG01AIN</td>
+			    <td>FÍSICA I</td><td></td>
+			    <td>04</td>
+			    <td>ESG</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">1</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>CARRILLO-SEGURA-SALINOVA</td><td >LU</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>CARRILLO-SEGURA-SALINOVA</td><td >MI</td><td>[07-09]</td>
+						        <td>P</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>CARRILLO-SEGURA-SALINOVA</td><td >VI</td><td>[07-08]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>20</td>
+			    <td>FIG01BIN</td>
+			    <td>FÍSICA I</td><td></td>
+			    <td>04</td>
+			    <td>ESG</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">1</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>YUCRA-CCAMA-ISIDRO ISAAC</td><td >LU</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr><td>YUCRA-CCAMA-ISIDRO ISAAC</td><td >MI</td><td>[07-09]</td>
+						        <td>P</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr><td>                                                                 </td><td >VI</td><td>[07-08]</td>
+						        <td>T</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>21</td>
+			    <td>HIG01AIN</td>
+			    <td>HISTORIA CRÍTICA DEL PERÚ E IDENTIDAD NACIONAL</td><td></td>
+			    <td>03</td>
+			    <td>ESG</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">1</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>GUTIERREZ-MARROQUIN-GLADYS ELVIRA</td><td >LU</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>GUTIERREZ-MARROQUIN-GLADYS ELVIRA</td><td >MI</td><td>[09-11]</td>
+						        <td>P</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>22</td>
+			    <td>HIG01BIN</td>
+			    <td>HISTORIA CRÍTICA DEL PERÚ E IDENTIDAD NACIONAL</td><td></td>
+			    <td>03</td>
+			    <td>ESG</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">1</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>PALOMINO-GUERRA-JUANA</td><td >LU</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr><td>PALOMINO-GUERRA-JUANA</td><td >MI</td><td>[09-11]</td>
+						        <td>P</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>23</td>
+			    <td>QUG01AIN</td>
+			    <td>QUÍMICA GENERAL</td><td></td>
+			    <td>04</td>
+			    <td>ESG</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">1</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>TORRES-POLANCO-JUANA GRACIELA</td><td >MA</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>TORRES-POLANCO-JUANA GRACIELA</td><td >JU</td><td>[09-11]</td>
+						        <td>P</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>TORRES-POLANCO-JUANA GRACIELA</td><td >VI</td><td>[10-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>24</td>
+			    <td>QUG01BIN</td>
+			    <td>QUÍMICA GENERAL</td><td></td>
+			    <td>04</td>
+			    <td>ESG</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">1</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>                                                                 </td><td >MA</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr><td>ALVAREZ-CABEZA-MARIELA</td><td >JU</td><td>[09-11]</td>
+						        <td>P</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr><td>ALVAREZ-CABEZA-MARIELA</td><td >VI</td><td>[10-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>25</td>
+			    <td>ME903AIN</td>
+			    <td>CÁLCULO I</td><td></td>
+			    <td>04</td>
+			    <td>EGT</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">ME901</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">2</td>
+				<td>AGRUPAMIENTO</td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>TTITO-TTICA-ELEUTERIA</td><td >LU</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>TTITO-TTICA-ELEUTERIA</td><td >MI</td><td>[11-13]</td>
+						        <td>P</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>TTITO-TTICA-ELEUTERIA</td><td >VI</td><td>[11-12]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>26</td>
+			    <td>MEG04AIN</td>
+			    <td>CÁLCULO II</td><td></td>
+			    <td>04</td>
+			    <td>ESG</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">MEG02</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">2</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>ESPINOZA-YABAR-MARITZA</td><td >LU</td><td>[18-20]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>ESPINOZA-YABAR-MARITZA</td><td >MI</td><td>[18-20]</td>
+						        <td>P</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>ESPINOZA-YABAR-MARITZA</td><td >VI</td><td>[18-19]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>27</td>
+			    <td>MEG04BIN</td>
+			    <td>CÁLCULO II</td><td></td>
+			    <td>04</td>
+			    <td>ESG</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">MEG02</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">2</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>ACHAHUI-FOLLANA-MARCO ANTONIO</td><td >LU</td><td>[18-20]</td>
+						        <td>T</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr><td>ACHAHUI-FOLLANA-MARCO ANTONIO</td><td >MI</td><td>[18-20]</td>
+						        <td>P</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr><td>ACHAHUI-FOLLANA-MARCO ANTONIO</td><td >VI</td><td>[18-19]</td>
+						        <td>T</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>28</td>
+			    <td>MEG03AIN</td>
+			    <td>ESTADÍSTICA GENERAL</td><td></td>
+			    <td>04</td>
+			    <td>ESG</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">2</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>ZARATE-DALENZ-JAIME</td><td >LU</td><td>[16-18]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>ZARATE-DALENZ-JAIME</td><td >MI</td><td>[16-18]</td>
+						        <td>P</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>ZARATE-DALENZ-JAIME</td><td >VI</td><td>[16-17]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>29</td>
+			    <td>MEG03BIN</td>
+			    <td>ESTADÍSTICA GENERAL</td><td></td>
+			    <td>04</td>
+			    <td>ESG</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">2</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>PAUCAR-CARLOS-GUILLERMO</td><td >LU</td><td>[16-18]</td>
+						        <td>T</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr><td>PAUCAR-CARLOS-GUILLERMO</td><td >MI</td><td>[16-18]</td>
+						        <td>P</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr><td>PAUCAR-CARLOS-GUILLERMO</td><td >VI</td><td>[16-17]</td>
+						        <td>T</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>30</td>
+			    <td>IFI01AIN</td>
+			    <td>FUNDAMENTOS DE LA PROGRAMACIÓN</td><td></td>
+			    <td>03</td>
+			    <td>EES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">2</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>ZUÑIGA-ROJAS-GABRIELA</td><td >LU</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">02</td></tr><tr><td>IBARRA-ZANBRANO-WALDO ELIO</td><td >MI</td><td>[09-11]</td>
+						        <td>L</td><td></td>
+						        <td>IN306</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>31</td>
+			    <td>IFI01BIN</td>
+			    <td>FUNDAMENTOS DE LA PROGRAMACIÓN</td><td></td>
+			    <td>03</td>
+			    <td>EES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">2</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>CHAVEZ-CENTENO-JAVIER DAVID</td><td >LU</td><td>[09-11]</td>
+						        <td>L</td><td></td>
+						        <td>IN306</td><td  style="text-align:left">02</td></tr><tr><td>CHAVEZ-CENTENO-JAVIER DAVID</td><td >MI</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>32</td>
+			    <td>LCG01AIN</td>
+			    <td>LINGÜÍSTICA Y COMUNICACIÓN HUMANA</td><td></td>
+			    <td>04</td>
+			    <td>ESG</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">2</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>CASTAÑEDA-CHÁVEZ-ALEXANDER</td><td >MA</td><td>[16-18]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>CASTAÑEDA-CHÁVEZ-ALEXANDER</td><td >JU</td><td>[16-18]</td>
+						        <td>P</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>CASTAÑEDA-CHÁVEZ-ALEXANDER</td><td >VI</td><td>[17-18]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>33</td>
+			    <td>LCG01BIN</td>
+			    <td>LINGÜÍSTICA Y COMUNICACIÓN HUMANA</td><td></td>
+			    <td>04</td>
+			    <td>ESG</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">2</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>HUERTA-VELASQUEZ-STEFANY INGRID</td><td >MA</td><td>[16-18]</td>
+						        <td>T</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr><td>HUERTA-VELASQUEZ-STEFANY INGRID</td><td >JU</td><td>[16-18]</td>
+						        <td>P</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr><td>HUERTA-VELASQUEZ-STEFANY INGRID</td><td >VI</td><td>[17-18]</td>
+						        <td>T</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>34</td>
+			    <td>MEI04AIN</td>
+			    <td>MATEMÁTICAS DISCRETAS I</td><td></td>
+			    <td>04</td>
+			    <td>EES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">MEG01</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">2</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>MONTAÑEZ-HUILLCA-OSCAR</td><td >MA</td><td>[18-20]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>MONTAÑEZ-HUILLCA-OSCAR</td><td >JU</td><td>[18-20]</td>
+						        <td>P</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>MONTAÑEZ-HUILLCA-OSCAR</td><td >VI</td><td>[19-20]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>35</td>
+			    <td>MEI04BIN</td>
+			    <td>MATEMÁTICAS DISCRETAS I</td><td></td>
+			    <td>04</td>
+			    <td>EES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">MEG01</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">2</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>LOAIZA-HUAMAN-PAUL HERBERT</td><td >MA</td><td>[18-20]</td>
+						        <td>T</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr><td>LOAIZA-HUAMAN-PAUL HERBERT</td><td >JU</td><td>[18-20]</td>
+						        <td>P</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr><td>LOAIZA-HUAMAN-PAUL HERBERT</td><td >VI</td><td>[19-20]</td>
+						        <td>T</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>36</td>
+			    <td>IFG01AIN</td>
+			    <td>PENSAMIENTO COMPUTACIONAL E INTELIGENCIA ARTIFICIAL</td><td></td>
+			    <td>03</td>
+			    <td>ESG</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">2</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>CHAVEZ-CENTENO-JAVIER DAVID</td><td >LU</td><td>[14-16]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>CHAVEZ-CENTENO-JAVIER DAVID</td><td >MI</td><td>[14-16]</td>
+						        <td>L</td><td>A</td>
+						        <td>IN304</td><td  style="text-align:left">02</td></tr><tr><td>CUTIPA-ARAPA-EFRAINA GLADYS</td><td >MI</td><td>[09-11]</td>
+						        <td>L</td><td>B</td>
+						        <td>IN309</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>37</td>
+			    <td>IFG01BIN</td>
+			    <td>PENSAMIENTO COMPUTACIONAL E INTELIGENCIA ARTIFICIAL</td><td></td>
+			    <td>03</td>
+			    <td>ESG</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold"></td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">2</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>BACA-CARDENAS-LINO AQUILES</td><td >LU</td><td>[14-16]</td>
+						        <td>L</td><td>A</td>
+						        <td>IN304</td><td  style="text-align:left">02</td></tr><tr><td>CUTIPA-ARAPA-EFRAINA GLADYS</td><td >MI</td><td>[14-16]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>38</td>
+			    <td>IF450AIN</td>
+			    <td>ABSTRACCIÓN DE DATOS Y OBJETOS</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF468</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">3</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>ROZAS-HUACHO-JAVIER ARTURO</td><td >MA</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr><td>ROZAS-HUACHO-JAVIER ARTURO</td><td >JU</td><td>[09-11]</td>
+						        <td>P</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">02</td></tr><tr><td>ROZAS-HUACHO-JAVIER ARTURO</td><td >VI</td><td>[09-10]</td>
+						        <td>T</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>39</td>
+			    <td>ME351AIN</td>
+			    <td>ALGEBRA LINEAL</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">ME307</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">3</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>JAIMES-SALLO-MARISOL</td><td >MA</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>VIRT 2 IN</td><td  style="text-align:left">02</td></tr><tr><td>JAIMES-SALLO-MARISOL</td><td >JU</td><td>[07-09]</td>
+						        <td>P</td><td></td>
+						        <td>VIRT 2 IN</td><td  style="text-align:left">02</td></tr><tr><td>JAIMES-SALLO-MARISOL</td><td >VI</td><td>[08-09]</td>
+						        <td>T</td><td></td>
+						        <td>VIRT 2 IN</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>40</td>
+			    <td>MEI05AIN</td>
+			    <td>ALGEBRA LINEAL COMPUTACIONAL</td><td></td>
+			    <td>04</td>
+			    <td>EES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">MEG01</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">3</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>CAZORLA-MEDINA-EDWIN</td><td >MA</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">02</td></tr><tr><td>CAZORLA-MEDINA-EDWIN</td><td >JU</td><td>[07-09]</td>
+						        <td>P</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">02</td></tr><tr><td>CAZORLA-MEDINA-EDWIN</td><td >VI</td><td>[08-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>41</td>
+			    <td>MEI05BIN</td>
+			    <td>ALGEBRA LINEAL COMPUTACIONAL</td><td></td>
+			    <td>04</td>
+			    <td>EES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">MEG01</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">3</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>JAIMES-SALLO-MARISOL</td><td >MA</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>VIRT 2 IN</td><td  style="text-align:left">02</td></tr><tr><td>JAIMES-SALLO-MARISOL</td><td >JU</td><td>[07-09]</td>
+						        <td>P</td><td></td>
+						        <td>VIRT 2 IN</td><td  style="text-align:left">02</td></tr><tr><td>JAIMES-SALLO-MARISOL</td><td >VI</td><td>[08-09]</td>
+						        <td>T</td><td></td>
+						        <td>VIRT 2 IN</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>42</td>
+			    <td>IFI02AIN</td>
+			    <td>ALGORITMOS Y ESTRUCTURAS DE DATOS I</td><td></td>
+			    <td>04</td>
+			    <td>EES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IFI01 y IFG01</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">3</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>ACURIO-USCA-NILA ZONIA</td><td >MA</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">02</td></tr><tr><td>ACURIO-USCA-NILA ZONIA</td><td >JU</td><td>[09-11]</td>
+						        <td>P</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">02</td></tr><tr><td>ACURIO-USCA-NILA ZONIA</td><td >VI</td><td>[10-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>43</td>
+			    <td>IFI02BIN</td>
+			    <td>ALGORITMOS Y ESTRUCTURAS DE DATOS I</td><td></td>
+			    <td>04</td>
+			    <td>EES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IFI01 y IFG01</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">3</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>ROZAS-HUACHO-JAVIER ARTURO</td><td >MA</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr><td>ROZAS-HUACHO-JAVIER ARTURO</td><td >JU</td><td>[09-11]</td>
+						        <td>P</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">02</td></tr><tr><td>ROZAS-HUACHO-JAVIER ARTURO</td><td >VI</td><td>[09-10]</td>
+						        <td>T</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>44</td>
+			    <td>ME350AIN</td>
+			    <td>CALCULO II</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">ME903</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">3</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>QUISPE-CJUIRO-GINA</td><td >LU</td><td>[16-18]</td>
+						        <td>T</td><td></td>
+						        <td>IN206</td><td  style="text-align:left">02</td></tr><tr><td>QUISPE-CJUIRO-GINA</td><td >MI</td><td>[16-18]</td>
+						        <td>P</td><td></td>
+						        <td>IN206</td><td  style="text-align:left">02</td></tr><tr><td>QUISPE-CJUIRO-GINA</td><td >VI</td><td>[13-14]</td>
+						        <td>T</td><td></td>
+						        <td>IN206</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>45</td>
+			    <td>MEI09AIN</td>
+			    <td>CALCULO III</td><td></td>
+			    <td>04</td>
+			    <td>EES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">MEG04</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">3</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>TICONA-FLORES-TONY GODOFREDO</td><td >LU</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">02</td></tr><tr><td>TICONA-FLORES-TONY GODOFREDO</td><td >MI</td><td>[11-13]</td>
+						        <td>P</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">02</td></tr><tr><td>TICONA-FLORES-TONY GODOFREDO</td><td >VI</td><td>[12-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>46</td>
+			    <td>FI370AIN</td>
+			    <td>FISICA APLICADA</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">FI902</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">3</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>DAVILA-MENDOZA-LAURA</td><td >MA</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN206</td><td  style="text-align:left">02</td></tr><tr><td>DAVILA-MENDOZA-LAURA</td><td >JU</td><td>[11-13]</td>
+						        <td>P</td><td></td>
+						        <td>IN206</td><td  style="text-align:left">02</td></tr><tr><td>DAVILA-MENDOZA-LAURA</td><td >VI</td><td>[11-12]</td>
+						        <td>T</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>47</td>
+			    <td>FII02AIN</td>
+			    <td>FÍSICA APLICADA A LA INFORMÁTICA</td><td></td>
+			    <td>04</td>
+			    <td>EES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">FIG01</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">3</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>CACERES-SAENZ-RICARDO ADAN</td><td >MA</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">02</td></tr><tr><td>CACERES-SAENZ-RICARDO ADAN</td><td >JU</td><td>[11-13]</td>
+						        <td>P</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">02</td></tr><tr><td>                                                                 </td><td >VI</td><td>[11-12]</td>
+						        <td>T</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>48</td>
+			    <td>FII02BIN</td>
+			    <td>FÍSICA APLICADA A LA INFORMÁTICA</td><td></td>
+			    <td>04</td>
+			    <td>EES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">FIG01</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">3</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>JANQUI-ESQUIVEL-LEONIDAS GUSTAVO</td><td >MA</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">02</td></tr><tr><td>JANQUI-ESQUIVEL-LEONIDAS GUSTAVO</td><td >JU</td><td>[11-13]</td>
+						        <td>P</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">02</td></tr><tr><td>JANQUI-ESQUIVEL-LEONIDAS GUSTAVO</td><td >VI</td><td>[11-12]</td>
+						        <td>T</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>49</td>
+			    <td>MEI06AIN</td>
+			    <td>MATEMÁTICA DISCRETAS II</td><td></td>
+			    <td>04</td>
+			    <td>EES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">MEI04</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">3</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>AUCCAILLE-QUISPE-YETSABEL</td><td >LU</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">02</td></tr><tr><td>AUCCAILLE-QUISPE-YETSABEL</td><td >MI</td><td>[07-09]</td>
+						        <td>P</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">02</td></tr><tr><td>AUCCAILLE-QUISPE-YETSABEL</td><td >VI</td><td>[07-08]</td>
+						        <td>T</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>50</td>
+			    <td>ME352AIN</td>
+			    <td>PROBABILIDADES Y ESTADÍSTICA</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">ME903</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">3</td>
+				<td>RES 108-2025-VRAC-UNSAAC</td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>FARFAN-ESCALANTE-GUIDO</td><td >LU</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr><td>FARFAN-ESCALANTE-GUIDO</td><td >MI</td><td>[07-09]</td>
+						        <td>P</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr><td>FARFAN-ESCALANTE-GUIDO</td><td >VI</td><td>[07-08]</td>
+						        <td>T</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>51</td>
+			    <td>IF451AIN</td>
+			    <td>PROGRAMACION I</td><td></td>
+			    <td>02</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF468</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">3</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>ZAMALLOA-PARO-WILLIAN</td><td >LU</td><td>[09-11]</td>
+						        <td>L</td><td></td>
+						        <td>IN305</td><td  style="text-align:left">02</td></tr><tr><td>ZAMALLOA-PARO-WILLIAN</td><td >MI</td><td>[09-11]</td>
+						        <td>L</td><td></td>
+						        <td>IN305</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>52</td>
+			    <td>IFI03AIN</td>
+			    <td>PROGRAMACIÓN I</td><td></td>
+			    <td>02</td>
+			    <td>EES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IFI01</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">3</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>ACURIO-USCA-NILA ZONIA</td><td >LU</td><td>[09-11]</td>
+						        <td>L</td><td></td>
+						        <td>IN304</td><td  style="text-align:left">02</td></tr><tr><td>ACURIO-USCA-NILA ZONIA</td><td >MI</td><td>[09-11]</td>
+						        <td>L</td><td></td>
+						        <td>IN304</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>53</td>
+			    <td>IFI03BIN</td>
+			    <td>PROGRAMACIÓN I</td><td></td>
+			    <td>02</td>
+			    <td>EES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IFI01</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">3</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2024</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>ZAMALLOA-PARO-WILLIAN</td><td >LU</td><td>[09-11]</td>
+						        <td>L</td><td></td>
+						        <td>IN305</td><td  style="text-align:left">02</td></tr><tr><td>ZAMALLOA-PARO-WILLIAN</td><td >MI</td><td>[09-11]</td>
+						        <td>L</td><td></td>
+						        <td>IN305</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>54</td>
+			    <td>IF480AIN</td>
+			    <td>ADMINISTRACIÓN DE TECNOLOGIAS DE INFORMACIÓN</td><td></td>
+			    <td>03</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">ME352</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">4</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>CHOQUE-SOTO-VANESSA MARIBEL</td><td >LU</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">02</td></tr><tr><td>CHOQUE-SOTO-VANESSA MARIBEL</td><td >MI</td><td>[09-11]</td>
+						        <td>P</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>55</td>
+			    <td>IF452AIN</td>
+			    <td>ALGORITMOS Y ESTRUCTURAS DE DATOS</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF450</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">4</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>MEDINA-MIRANDA-KARELIA</td><td >MA</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">02</td></tr><tr><td>MEDINA-MIRANDA-KARELIA</td><td >JU</td><td>[09-11]</td>
+						        <td>P</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">02</td></tr><tr><td>MEDINA-MIRANDA-KARELIA</td><td >VI</td><td>[10-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>56</td>
+			    <td>IF452BIN</td>
+			    <td>ALGORITMOS Y ESTRUCTURAS DE DATOS</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF450</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">4</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>                                                                 </td><td >MA</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr><td>                                                                 </td><td >JU</td><td>[07-09]</td>
+						        <td>P</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr><td>                                                                 </td><td >VI</td><td>[08-09]</td>
+						        <td>T</td><td></td>
+						        <td>VIRT 1 IN</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>57</td>
+			    <td>EL371AIN</td>
+			    <td>ELECTRÓNICA Y DISEÑO DIGITAL</td><td></td>
+			    <td>03</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">FI370</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">4</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>CASTILLO-GUEVARA-MIGUEL ANGEL</td><td >MA</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">02</td></tr><tr><td>CASTILLO-GUEVARA-MIGUEL ANGEL</td><td >JU</td><td>[11-13]</td>
+						        <td>P</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>58</td>
+			    <td>EL371BIN</td>
+			    <td>ELECTRÓNICA Y DISEÑO DIGITAL</td><td></td>
+			    <td>03</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">FI370</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">4</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>VILLARES-HOLGUIN-CHRISTIAN DEYVI</td><td >MA</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">02</td></tr><tr><td>VILLARES-HOLGUIN-CHRISTIAN DEYVI</td><td >JU</td><td>[11-13]</td>
+						        <td>P</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>59</td>
+			    <td>ME354AIN</td>
+			    <td>INVESTIGACIÓN OPERATIVA</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">ME351</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">4</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>FARFAN-ESCALANTE-GUIDO</td><td >MA</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">02</td></tr><tr><td>FARFAN-ESCALANTE-GUIDO</td><td >JU</td><td>[07-09]</td>
+						        <td>P</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">02</td></tr><tr><td>FARFAN-ESCALANTE-GUIDO</td><td >VI</td><td>[08-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>60</td>
+			    <td>ME354BIN</td>
+			    <td>INVESTIGACIÓN OPERATIVA</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">ME351</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">4</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>MONZON-DIAZ-GILBERT ALBERTO</td><td >MA</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>VIRT 1 IN</td><td  style="text-align:left">02</td></tr><tr><td>MONZON-DIAZ-GILBERT ALBERTO</td><td >JU</td><td>[07-09]</td>
+						        <td>P</td><td></td>
+						        <td>VIRT 1 IN</td><td  style="text-align:left">02</td></tr><tr><td>MONZON-DIAZ-GILBERT ALBERTO</td><td >VI</td><td>[07-08]</td>
+						        <td>T</td><td></td>
+						        <td>VIRT 1 IN</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>61</td>
+			    <td>ME355AIN</td>
+			    <td>MATEMÁTICAS DISCRETAS II</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">ME307</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">4</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>CAZORLA-MEDINA-EDWIN</td><td >LU</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">02</td></tr><tr><td>CAZORLA-MEDINA-EDWIN</td><td >MI</td><td>[07-09]</td>
+						        <td>P</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">02</td></tr><tr><td>CAZORLA-MEDINA-EDWIN</td><td >VI</td><td>[07-08]</td>
+						        <td>T</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>62</td>
+			    <td>IF060AIN</td>
+			    <td>MÚSICA</td><td></td>
+			    <td>02</td>
+			    <td>AEX</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">60 Creds.</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">4</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>SOSA-JAUREGUI-VICTOR DARIO</td><td >MA</td><td>[16-18]</td>
+						        <td>P</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">02</td></tr><tr><td>SOSA-JAUREGUI-VICTOR DARIO</td><td >JU</td><td>[16-18]</td>
+						        <td>P</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>63</td>
+			    <td>IF453AIN</td>
+			    <td>PROGRAMACIÓN II</td><td></td>
+			    <td>02</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF451</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">4</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>COLLANTES-MENDOZA-ALFREDO</td><td >LU</td><td>[11-13]</td>
+						        <td>L</td><td></td>
+						        <td>IN304</td><td  style="text-align:left">02</td></tr><tr><td>COLLANTES-MENDOZA-ALFREDO</td><td >MI</td><td>[11-13]</td>
+						        <td>L</td><td></td>
+						        <td>IN304</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>64</td>
+			    <td>IF453BIN</td>
+			    <td>PROGRAMACIÓN II</td><td></td>
+			    <td>02</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF451</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">4</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>AGUIRRE-CARBAJAL-DORIS SABINA</td><td >LU</td><td>[11-13]</td>
+						        <td>L</td><td></td>
+						        <td>IN305</td><td  style="text-align:left">02</td></tr><tr><td>AGUIRRE-CARBAJAL-DORIS SABINA</td><td >MI</td><td>[11-13]</td>
+						        <td>L</td><td></td>
+						        <td>IN305</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>65</td>
+			    <td>IF610AIN</td>
+			    <td>ANALISIS Y DISEÑO DE SISTEMAS DE INFORMACIÓN</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF450 y IF480</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">5</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>CANDIA-OVIEDO-DENNIS IVAN</td><td >MA</td><td>[09-11]</td>
+						        <td>L</td><td></td>
+						        <td>IN303</td><td  style="text-align:left">02</td></tr><tr><td>CANDIA-OVIEDO-DENNIS IVAN</td><td >JU</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr><td>CANDIA-OVIEDO-DENNIS IVAN</td><td >VI</td><td>[10-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>66</td>
+			    <td>IF610BIN</td>
+			    <td>ANALISIS Y DISEÑO DE SISTEMAS DE INFORMACIÓN</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF450 y IF480</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">5</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>TICONA-PARI-GUZMAN</td><td >MA</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>VIRT 2 IN</td><td  style="text-align:left">02</td></tr><tr><td>TICONA-PARI-GUZMAN</td><td >JU</td><td>[09-11]</td>
+						        <td>L</td><td></td>
+						        <td>IN303</td><td  style="text-align:left">02</td></tr><tr><td>TICONA-PARI-GUZMAN</td><td >VI</td><td>[10-11]</td>
+						        <td>T</td><td></td>
+						        <td>VIRT 2 IN</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>67</td>
+			    <td>ME356AIN</td>
+			    <td>ECUACIONES DIFERENCIALES</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">ME350</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">5</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>PAUCAR-CARLOS-GUILLERMO</td><td >MA</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr><td>PAUCAR-CARLOS-GUILLERMO</td><td >JU</td><td>[11-13]</td>
+						        <td>P</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr><td>PAUCAR-CARLOS-GUILLERMO</td><td >VI</td><td>[12-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>68</td>
+			    <td>ME356BIN</td>
+			    <td>ECUACIONES DIFERENCIALES</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">ME350</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">5</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>VELASQUEZ-JARA-ADELMA</td><td >MA</td><td>[14-16]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>VELASQUEZ-JARA-ADELMA</td><td >JU</td><td>[14-16]</td>
+						        <td>P</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">02</td></tr><tr><td>VELASQUEZ-JARA-ADELMA</td><td >VI</td><td>[15-16]</td>
+						        <td>T</td><td></td>
+						        <td>IN101</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>69</td>
+			    <td>IF481AIN</td>
+			    <td>INGENIERIA ECONOMICA</td><td></td>
+			    <td>03</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF480</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">5</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>PALOMINO-OLIVERA-EMILIO</td><td >LU</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">02</td></tr><tr><td>PALOMINO-OLIVERA-EMILIO</td><td >MI</td><td>[11-13]</td>
+						        <td>L</td><td></td>
+						        <td>IN303</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>70</td>
+			    <td>IF481BIN</td>
+			    <td>INGENIERIA ECONOMICA</td><td></td>
+			    <td>03</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF480</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">5</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>IRPANOCCA-CUSIMAYTA-MARITZA</td><td >LU</td><td>[11-13]</td>
+						        <td>L</td><td></td>
+						        <td>IN303</td><td  style="text-align:left">02</td></tr><tr><td>IRPANOCCA-CUSIMAYTA-MARITZA</td><td >MI</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN203</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>71</td>
+			    <td>IF650AIN</td>
+			    <td>MODELOS PROBABILISTICOS</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">ME352</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">5</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>ENCISO-RODAS-LAURO</td><td >MA</td><td>[18-20]</td>
+						        <td>T</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr><td>ENCISO-RODAS-LAURO</td><td >JU</td><td>[18-20]</td>
+						        <td>P</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr><td>ENCISO-RODAS-LAURO</td><td >VI</td><td>[08-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>72</td>
+			    <td>IF550AIN</td>
+			    <td>ORGANIZACIÓN Y ARQUITECTURA DEL COMPUTADOR</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">EL371</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">5</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>CARRASCO-POBLETE-EDWIN</td><td >LU</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">02</td></tr><tr><td>CARRASCO-POBLETE-EDWIN</td><td >MI</td><td>[09-11]</td>
+						        <td>L</td><td></td>
+						        <td>IN303</td><td  style="text-align:left">02</td></tr><tr><td>CARRASCO-POBLETE-EDWIN</td><td >VI</td><td>[09-10]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>73</td>
+			    <td>IF550BIN</td>
+			    <td>ORGANIZACIÓN Y ARQUITECTURA DEL COMPUTADOR</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">EL371</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">5</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>PEÑALOZA-FIGUEROA-MANUEL AURELIO</td><td >LU</td><td>[16-18]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">02</td></tr><tr><td>PEÑALOZA-FIGUEROA-MANUEL AURELIO</td><td >MI</td><td>[16-18]</td>
+						        <td>L</td><td></td>
+						        <td>IN301</td><td  style="text-align:left">02</td></tr><tr><td>PEÑALOZA-FIGUEROA-MANUEL AURELIO</td><td >VI</td><td>[16-17]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>74</td>
+			    <td>IF454AIN</td>
+			    <td>TEORIA DE LA COMPUTACION</td><td></td>
+			    <td>03</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF452 y ME355</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">5</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>UGARTE-ROJAS-HECTOR EDUARDO</td><td >MA</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">02</td></tr><tr><td>UGARTE-ROJAS-HECTOR EDUARDO</td><td >JU</td><td>[07-09]</td>
+						        <td>P</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>75</td>
+			    <td>IF454BIN</td>
+			    <td>TEORIA DE LA COMPUTACION</td><td></td>
+			    <td>03</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF452 y ME355</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">5</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>MONTOYA-CUBAS-CARLOS FERNANDO</td><td >MA</td><td>[16-18]</td>
+						        <td>T</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">02</td></tr><tr><td>MONTOYA-CUBAS-CARLOS FERNANDO</td><td >JU</td><td>[16-18]</td>
+						        <td>P</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>76</td>
+			    <td>IF455AIN</td>
+			    <td>ALGORITMOS PARALELOS Y DISTRIBUIDOS</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF452</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">6</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>CCACYAHUILLCA-BEJAR-HANS HARLEY</td><td >LU</td><td>[11-13]</td>
+						        <td>L</td><td>A</td>
+						        <td>IN301</td><td  style="text-align:left">02</td></tr><tr><td>CCACYAHUILLCA-BEJAR-HANS HARLEY</td><td >MI</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">02</td></tr><tr><td>CCACYAHUILLCA-BEJAR-HANS HARLEY</td><td >VI</td><td>[11-12]</td>
+						        <td>T</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>77</td>
+			    <td>IF455BIN</td>
+			    <td>ALGORITMOS PARALELOS Y DISTRIBUIDOS</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF452</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">6</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>QUISPE-TORRES-GERAR FRANCIS</td><td >LU</td><td>[11-13]</td>
+						        <td>L</td><td></td>
+						        <td>IN302</td><td  style="text-align:left">02</td></tr><tr><td>ALVAREZ-MAMANI-EDWIN</td><td >MI</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">02</td></tr><tr><td>ALVAREZ-MAMANI-EDWIN</td><td >VI</td><td>[11-12]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>78</td>
+			    <td>IF458AIN</td>
+			    <td>COMPUTACIÓN GRÁFICA I</td><td></td>
+			    <td>04</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF452 y ME351</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">6</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>ALVAREZ-MAMANI-EDWIN</td><td >LU</td><td>[07-09]</td>
+						        <td>L</td><td></td>
+						        <td>IN305</td><td  style="text-align:left">02</td></tr><tr><td>ALVAREZ-MAMANI-EDWIN</td><td >MI</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">02</td></tr><tr><td>ALVAREZ-MAMANI-EDWIN</td><td >VI</td><td>[08-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>79</td>
+			    <td>IF458BIN</td>
+			    <td>COMPUTACIÓN GRÁFICA I</td><td></td>
+			    <td>04</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF452 y ME351</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">6</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>CCACYAHUILLCA-BEJAR-HANS HARLEY</td><td >LU</td><td>[07-09]</td>
+						        <td>L</td><td></td>
+						        <td>IN306</td><td  style="text-align:left">02</td></tr><tr><td>QUISPE-CCAPACCA-EDGAR</td><td >MI</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">02</td></tr><tr><td>QUISPE-CCAPACCA-EDGAR</td><td >VI</td><td>[07-08]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>80</td>
+			    <td>IF612AIN</td>
+			    <td>FUNDAMENTOS Y DISEÑO DE BASES DE DATOS</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF610</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">6</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="5">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>IRPANOCCA-CUSIMAYTA-MARITZA</td><td >LU</td><td>[09-11]</td>
+						        <td>L</td><td></td>
+						        <td>IN301</td><td  style="text-align:left">02</td></tr><tr><td>QUISPE-ONOFRE-CARLOS RAMON</td><td >LU</td><td>[09-11]</td>
+						        <td>L</td><td>C</td>
+						        <td>IN309</td><td  style="text-align:left">02</td></tr><tr><td>IRPANOCCA-CUSIMAYTA-MARITZA</td><td >MI</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">02</td></tr><tr><td>IRPANOCCA-CUSIMAYTA-MARITZA</td><td >VI</td><td>[09-10]</td>
+						        <td>T</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>81</td>
+			    <td>IF612BIN</td>
+			    <td>FUNDAMENTOS Y DISEÑO DE BASES DE DATOS</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF610</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">6</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>MEDINA-MIRANDA-KARELIA</td><td >LU</td><td>[09-11]</td>
+						        <td>L</td><td></td>
+						        <td>IN302</td><td  style="text-align:left">02</td></tr><tr><td>MEDINA-MIRANDA-KARELIA</td><td >MI</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr><td>MEDINA-MIRANDA-KARELIA</td><td >VI</td><td>[09-10]</td>
+						        <td>T</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>82</td>
+			    <td>IF611AIN</td>
+			    <td>METODOLOGÍA DE DESARROLLO DE SOFTWARE</td><td></td>
+			    <td>03</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF610</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">6</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>QUISPE-ONOFRE-CARLOS RAMON</td><td >MA</td><td>[07-09]</td>
+						        <td>L</td><td></td>
+						        <td>IN305</td><td  style="text-align:left">02</td></tr><tr><td>QUISPE-ONOFRE-CARLOS RAMON</td><td >JU</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>83</td>
+			    <td>IF611BIN</td>
+			    <td>METODOLOGÍA DE DESARROLLO DE SOFTWARE</td><td></td>
+			    <td>03</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF610</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">6</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>IBARRA-ZANBRANO-WALDO ELIO</td><td >MA</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">02</td></tr><tr><td>IBARRA-ZANBRANO-WALDO ELIO</td><td >JU</td><td>[07-09]</td>
+						        <td>L</td><td></td>
+						        <td>IN305</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>84</td>
+			    <td>IF457AIN</td>
+			    <td>METODOS NUMERICOS</td><td></td>
+			    <td>03</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">ME356</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">6</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>BACA-CARDENAS-LINO AQUILES</td><td >MA</td><td>[14-16]</td>
+						        <td>T</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr><td>MONTOYA-CUBAS-CARLOS FERNANDO</td><td >JU</td><td>[14-16]</td>
+						        <td>L</td><td>B</td>
+						        <td>IN302</td><td  style="text-align:left">02</td></tr><tr><td>BACA-CARDENAS-LINO AQUILES</td><td >JU</td><td>[14-16]</td>
+						        <td>L</td><td>A</td>
+						        <td>IN304</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>85</td>
+			    <td>IF457BIN</td>
+			    <td>METODOS NUMERICOS</td><td></td>
+			    <td>03</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">ME356</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">6</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>QUISPE-ONOFRE-CARLOS RAMON</td><td >MA</td><td>[14-16]</td>
+						        <td>L</td><td></td>
+						        <td>IN304</td><td  style="text-align:left">02</td></tr><tr><td>QUISPE-CCAPACCA-EDGAR</td><td >JU</td><td>[14-16]</td>
+						        <td>T</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>86</td>
+			    <td>IF551AIN</td>
+			    <td>SISTEMAS OPERATIVOS</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF550</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">6</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>CARRASCO-POBLETE-EDWIN</td><td >MA</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">02</td></tr><tr><td>CARRASCO-POBLETE-EDWIN</td><td >JU</td><td>[09-11]</td>
+						        <td>L</td><td></td>
+						        <td>IN305</td><td  style="text-align:left">02</td></tr><tr><td>CARRASCO-POBLETE-EDWIN</td><td >VI</td><td>[10-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>87</td>
+			    <td>IF551BIN</td>
+			    <td>SISTEMAS OPERATIVOS</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF550</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">6</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="5">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>SUAREZ-MARISCAL-CLAUDIA FRANCESCA</td><td >LU</td><td>[14-16]</td>
+						        <td>T</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">02</td></tr><tr><td>SUAREZ-MARISCAL-CLAUDIA FRANCESCA</td><td >MI</td><td>[14-16]</td>
+						        <td>L</td><td>A</td>
+						        <td>IN302</td><td  style="text-align:left">02</td></tr><tr><td>LAVILLA-ALVAREZ-VANESA</td><td >MI</td><td>[14-16]</td>
+						        <td>L</td><td>B</td>
+						        <td>IN303</td><td  style="text-align:left">02</td></tr><tr><td>SUAREZ-MARISCAL-CLAUDIA FRANCESCA</td><td >VI</td><td>[15-16]</td>
+						        <td>T</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>88</td>
+			    <td>IF456AIN</td>
+			    <td>ALGORITMOS AVANZADOS</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF454</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">7</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>COSIO-LOAIZA-STEPHAN JHOEL</td><td >MA</td><td>[18-20]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">02</td></tr><tr><td>COSIO-LOAIZA-STEPHAN JHOEL</td><td >JU</td><td>[18-20]</td>
+						        <td>P</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">02</td></tr><tr><td>COSIO-LOAIZA-STEPHAN JHOEL</td><td >VI</td><td>[08-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>89</td>
+			    <td>IF456BIN</td>
+			    <td>ALGORITMOS AVANZADOS</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF454</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">7</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>HUILLCA-HUALLPARIMACHI-RAUL</td><td >LU</td><td>[16-18]</td>
+						        <td>T</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">02</td></tr><tr><td>HUILLCA-HUALLPARIMACHI-RAUL</td><td >MI</td><td>[16-18]</td>
+						        <td>P</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">02</td></tr><tr><td>HUILLCA-HUALLPARIMACHI-RAUL</td><td >VI</td><td>[16-17]</td>
+						        <td>T</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>90</td>
+			    <td>IF467AIN</td>
+			    <td>ANÁLISIS Y DISEÑO DE ALGORITMOS</td><td></td>
+			    <td>03</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF452 y IF453</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">7</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>QUISPE-CCAPACCA-EDGAR</td><td >MA</td><td>[07-09]</td>
+						        <td>L</td><td></td>
+						        <td>IN302</td><td  style="text-align:left">02</td></tr><tr><td>QUISPE-CCAPACCA-EDGAR</td><td >JU</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN203</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>91</td>
+			    <td>IF466AIN</td>
+			    <td>COMPILADORES</td><td></td>
+			    <td>03</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF454</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">7</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>FLORES-PACHECO-LINO PRISCILIANO</td><td >LU</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN202</td><td  style="text-align:left">02</td></tr><tr><td>FLORES-PACHECO-LINO PRISCILIANO</td><td >MI</td><td>[11-13]</td>
+						        <td>L</td><td>A</td>
+						        <td>IN301</td><td  style="text-align:left">02</td></tr><tr><td>UGARTE-ROJAS-HECTOR EDUARDO</td><td >MI</td><td>[11-13]</td>
+						        <td>L</td><td>B</td>
+						        <td>IN310</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>92</td>
+			    <td>IF613AIN</td>
+			    <td>DESARROLLO DE SOFTWARE I</td><td></td>
+			    <td>02</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF612</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">7</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>MONZON-CONDORI-LUIS ALVARO</td><td >LU</td><td>[07-09]</td>
+						        <td>L</td><td></td>
+						        <td>IN303</td><td  style="text-align:left">02</td></tr><tr><td>MONZON-CONDORI-LUIS ALVARO</td><td >MI</td><td>[07-09]</td>
+						        <td>L</td><td></td>
+						        <td>IN303</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>93</td>
+			    <td>IF613BIN</td>
+			    <td>DESARROLLO DE SOFTWARE I</td><td></td>
+			    <td>02</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF612</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">7</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>ZUÑIGA-ROJAS-GABRIELA</td><td >LU</td><td>[07-09]</td>
+						        <td>L</td><td></td>
+						        <td>IN302</td><td  style="text-align:left">02</td></tr><tr><td>ZUÑIGA-ROJAS-GABRIELA</td><td >MI</td><td>[07-09]</td>
+						        <td>L</td><td></td>
+						        <td>IN302</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>94</td>
+			    <td>IF651AIN</td>
+			    <td>INTELIGENCIA ARTIFICIAL</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF650 y IF612</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">7</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>ALZAMORA-PAREDES-ROBERT</td><td >MA</td><td>[09-11]</td>
+						        <td>L</td><td></td>
+						        <td>IN301</td><td  style="text-align:left">02</td></tr><tr><td>ALZAMORA-PAREDES-ROBERT</td><td >JU</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">02</td></tr><tr><td>ALZAMORA-PAREDES-ROBERT</td><td >VI</td><td>[10-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>95</td>
+			    <td>IF651BIN</td>
+			    <td>INTELIGENCIA ARTIFICIAL</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF650 y IF612</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">7</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>MEDRANO-VALENCIA-IVAN CESAR</td><td >MA</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN206</td><td  style="text-align:left">02</td></tr><tr><td>MEDRANO-VALENCIA-IVAN CESAR</td><td >JU</td><td>[09-11]</td>
+						        <td>L</td><td></td>
+						        <td>IN301</td><td  style="text-align:left">02</td></tr><tr><td>MEDRANO-VALENCIA-IVAN CESAR</td><td >VI</td><td>[10-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN206</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>96</td>
+			    <td>IF063AIN</td>
+			    <td>QUECHUA</td><td></td>
+			    <td>02</td>
+			    <td>AEX</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">100 Creds.</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">7</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>PACHECO-VASQUEZ-ESTHER CRISTINA</td><td >MA</td><td>[16-18]</td>
+						        <td>P</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">02</td></tr><tr><td>PACHECO-VASQUEZ-ESTHER CRISTINA</td><td >JU</td><td>[16-18]</td>
+						        <td>P</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>97</td>
+			    <td>IF552AIN</td>
+			    <td>REDES DE COMPUTADORAS I</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF551</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">7</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="5">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>DUEÑAS-BUSTINZA-DARIO FRANCISCO</td><td >LU</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN203</td><td  style="text-align:left">02</td></tr><tr><td>DUEÑAS-BUSTINZA-DARIO FRANCISCO</td><td >MI</td><td>[09-11]</td>
+						        <td>L</td><td>A</td>
+						        <td>IN301</td><td  style="text-align:left">02</td></tr><tr><td>CAMA-CACERES-ELMER</td><td >MI</td><td>[09-11]</td>
+						        <td>L</td><td>B</td>
+						        <td>IN310</td><td  style="text-align:left">02</td></tr><tr><td>DUEÑAS-BUSTINZA-DARIO FRANCISCO</td><td >VI</td><td>[09-10]</td>
+						        <td>T</td><td></td>
+						        <td>IN203</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>98</td>
+			    <td>IF552BIN</td>
+			    <td>REDES DE COMPUTADORAS I</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF551</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">7</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>HUAMANI-HUAYHUA-AGUEDO</td><td >LU</td><td>[18-20]</td>
+						        <td>L</td><td></td>
+						        <td>IN302</td><td  style="text-align:left">02</td></tr><tr><td>HUAMANI-HUAYHUA-AGUEDO</td><td >MI</td><td>[18-20]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">02</td></tr><tr><td>HUAMANI-HUAYHUA-AGUEDO</td><td >VI</td><td>[15-16]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>99</td>
+			    <td>IF652AIN</td>
+			    <td>APRENDIZAJE AUTOMATICO</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF651</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">8</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>ROZAS-HUACHO-JAVIER ARTURO</td><td >LU</td><td>[09-11]</td>
+						        <td>L</td><td></td>
+						        <td>IN303</td><td  style="text-align:left">02</td></tr><tr><td>ROZAS-HUACHO-JAVIER ARTURO</td><td >MI</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN203</td><td  style="text-align:left">02</td></tr><tr><td>ROZAS-HUACHO-JAVIER ARTURO</td><td >VI</td><td>[10-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN203</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>100</td>
+			    <td>IF664AIN</td>
+			    <td>BIOINFORMATICA</td><td></td>
+			    <td>04</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF650</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">8</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>PALMA-TTITO-LUIS BELTRAN</td><td >LU</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN203</td><td  style="text-align:left">02</td></tr><tr><td>PALMA-TTITO-LUIS BELTRAN</td><td >MI</td><td>[11-13]</td>
+						        <td>L</td><td>B</td>
+						        <td>IN309</td><td  style="text-align:left">02</td></tr><tr><td>PALMA-TTITO-LUIS BELTRAN</td><td >VI</td><td>[11-12]</td>
+						        <td>T</td><td></td>
+						        <td>IN203</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>101</td>
+			    <td>IF664BIN</td>
+			    <td>BIOINFORMATICA</td><td></td>
+			    <td>04</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF650</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">8</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>VENEGAS-VERGARA-MARIA DEL PILAR</td><td >MA</td><td>[18-20]</td>
+						        <td>T</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">02</td></tr><tr><td>VENEGAS-VERGARA-MARIA DEL PILAR</td><td >JU</td><td>[18-20]</td>
+						        <td>L</td><td></td>
+						        <td>IN301</td><td  style="text-align:left">02</td></tr><tr><td>VENEGAS-VERGARA-MARIA DEL PILAR</td><td >VI</td><td>[18-19]</td>
+						        <td>T</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>102</td>
+			    <td>IF614AIN</td>
+			    <td>INGENIERIA DE SOFTWARE I</td><td></td>
+			    <td>04</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF611 y IF613</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">8</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="5">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>VILLAFUERTE-SERNA-RONY</td><td >MA</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN203</td><td  style="text-align:left">02</td></tr><tr><td>VILLAFUERTE-SERNA-RONY</td><td >JU</td><td>[07-09]</td>
+						        <td>L</td><td>A</td>
+						        <td>IN301</td><td  style="text-align:left">02</td></tr><tr><td>CAMA-CACERES-ELMER</td><td >JU</td><td>[07-09]</td>
+						        <td>L</td><td>B</td>
+						        <td>IN302</td><td  style="text-align:left">02</td></tr><tr><td>VILLAFUERTE-SERNA-RONY</td><td >VI</td><td>[08-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN203</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>103</td>
+			    <td>IF669AIN</td>
+			    <td>MODELADO Y SIMULACION</td><td></td>
+			    <td>04</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF650</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">8</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>QUISPE-ONOFRE-CARLOS RAMON</td><td >LU</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN203</td><td  style="text-align:left">02</td></tr><tr><td>QUISPE-ONOFRE-CARLOS RAMON</td><td >MI</td><td>[07-09]</td>
+						        <td>L</td><td></td>
+						        <td>IN301</td><td  style="text-align:left">02</td></tr><tr><td>QUISPE-ONOFRE-CARLOS RAMON</td><td >VI</td><td>[07-08]</td>
+						        <td>T</td><td></td>
+						        <td>IN203</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>104</td>
+			    <td>IF482AIN</td>
+			    <td>PLANEAMIENTO Y DIRECCION ESTRATEGICA DE TECNOLOGIA DE INFORMACION</td><td></td>
+			    <td>03</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">140 Creds.</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">8</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>CHOQUE-SOTO-VANESSA MARIBEL</td><td >MA</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN203</td><td  style="text-align:left">02</td></tr><tr><td>CHOQUE-SOTO-VANESSA MARIBEL</td><td >JU</td><td>[09-11]</td>
+						        <td>P</td><td></td>
+						        <td>IN203</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>105</td>
+			    <td>IF710AIN</td>
+			    <td>SEMINARIO DE INVESTIGACION I</td><td></td>
+			    <td>03</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">150 Creds.</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">8</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>VERA-OLIVERA-HARLEY</td><td >LU</td><td>[16-18]</td>
+						        <td>T</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr><td>VERA-OLIVERA-HARLEY</td><td >MI</td><td>[16-18]</td>
+						        <td>P</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>106</td>
+			    <td>IF710BIN</td>
+			    <td>SEMINARIO DE INVESTIGACION I</td><td></td>
+			    <td>03</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">150 Creds.</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">8</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>ORMEÑO-AYALA-YESHICA ISELA</td><td >LU</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr><td>ORMEÑO-AYALA-YESHICA ISELA</td><td >MI</td><td>[11-13]</td>
+						        <td>P</td><td></td>
+						        <td>IN108</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>107</td>
+			    <td>IF459AIN</td>
+			    <td>COMPUTACION GRAFICA II</td><td></td>
+			    <td>04</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF458</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">9</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>MEDRANO-VALENCIA-IVAN CESAR</td><td >LU</td><td>[11-13]</td>
+						        <td>L</td><td></td>
+						        <td>IN306</td><td  style="text-align:left">02</td></tr><tr><td>MEDRANO-VALENCIA-IVAN CESAR</td><td >MI</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN206</td><td  style="text-align:left">02</td></tr><tr><td>MEDRANO-VALENCIA-IVAN CESAR</td><td >VI</td><td>[11-12]</td>
+						        <td>T</td><td></td>
+						        <td>IN206</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>108</td>
+			    <td>IF062AIN</td>
+			    <td>DANZA MODERNA</td><td></td>
+			    <td>02</td>
+			    <td>AEX</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">100 Creds.</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">9</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>DIAZ-CACERES-LISHA SABAH</td><td >MA</td><td>[14-16]</td>
+						        <td>P</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr><td>DIAZ-CACERES-LISHA SABAH</td><td >JU</td><td>[14-16]</td>
+						        <td>P</td><td></td>
+						        <td>IN102</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>109</td>
+			    <td>IF483AIN</td>
+			    <td>FORMULACION DE PROYECTOS DE TECNOLOGIA DE INFORMACION</td><td></td>
+			    <td>03</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF482</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">9</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>PALOMINO-OLIVERA-EMILIO</td><td >MA</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">02</td></tr><tr><td>PALOMINO-OLIVERA-EMILIO</td><td >JU</td><td>[09-11]</td>
+						        <td>P</td><td></td>
+						        <td>IN206</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>110</td>
+			    <td>IF617AIN</td>
+			    <td>INGENIERIA DE SOFTWARE II</td><td></td>
+			    <td>04</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF614</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">9</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>ZAMALLOA-PARO-WILLIAN</td><td >MA</td><td>[07-09]</td>
+						        <td>L</td><td></td>
+						        <td>IN301</td><td  style="text-align:left">02</td></tr><tr><td>ZAMALLOA-PARO-WILLIAN</td><td >JU</td><td>[07-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN206</td><td  style="text-align:left">02</td></tr><tr><td>ZAMALLOA-PARO-WILLIAN</td><td >VI</td><td>[08-09]</td>
+						        <td>T</td><td></td>
+						        <td>IN206</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>111</td>
+			    <td>IF656AIN</td>
+			    <td>PROCESAMIENTO DEL LENGUAJE NATURAL</td><td></td>
+			    <td>04</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF651</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">9</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="5">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>MONTOYA-CUBAS-CARLOS FERNANDO</td><td >LU</td><td>[14-16]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">02</td></tr><tr><td>MONTOYA-CUBAS-CARLOS FERNANDO</td><td >MI</td><td>[14-16]</td>
+						        <td>L</td><td>A</td>
+						        <td>IN301</td><td  style="text-align:left">02</td></tr><tr><td>                                                                 </td><td >MI</td><td>[14-16]</td>
+						        <td>L</td><td>B</td>
+						        <td>IN305</td><td  style="text-align:left">02</td></tr><tr><td>MONTOYA-CUBAS-CARLOS FERNANDO</td><td >VI</td><td>[14-15]</td>
+						        <td>T</td><td></td>
+						        <td>IN201</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>112</td>
+			    <td>IF654AIN</td>
+			    <td>ROBOTICA</td><td></td>
+			    <td>04</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF651</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">9</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>PILLCO-QUISPE-JOSE MAURO</td><td >LU</td><td>[11-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN206</td><td  style="text-align:left">02</td></tr><tr><td>PILLCO-QUISPE-JOSE MAURO</td><td >MI</td><td>[11-13]</td>
+						        <td>L</td><td></td>
+						        <td>IN306</td><td  style="text-align:left">02</td></tr><tr><td>PILLCO-QUISPE-JOSE MAURO</td><td >VI</td><td>[12-13]</td>
+						        <td>T</td><td></td>
+						        <td>IN206</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>113</td>
+			    <td>IF657AIN</td>
+			    <td>VISION COMPUTACIONAL</td><td></td>
+			    <td>04</td>
+			    <td>EEEP</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF651</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">9</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="4">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>VILLALBA-VILLALBA-TANY</td><td >LU</td><td>[09-11]</td>
+						        <td>T</td><td></td>
+						        <td>IN206</td><td  style="text-align:left">02</td></tr><tr><td>VILLALBA-VILLALBA-TANY</td><td >MI</td><td>[09-11]</td>
+						        <td>L</td><td></td>
+						        <td>IN302</td><td  style="text-align:left">02</td></tr><tr><td>VILLALBA-VILLALBA-TANY</td><td >VI</td><td>[09-10]</td>
+						        <td>T</td><td></td>
+						        <td>IN206</td><td  style="text-align:left">01</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>114</td>
+			    <td>IF711AIN</td>
+			    <td>SEMINARIO DE INVESTIGACION II</td><td></td>
+			    <td>03</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF710</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">10</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>                                                                 </td><td >LU</td><td>[14-16]</td>
+						        <td>T</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">02</td></tr><tr><td>                                                                 </td><td >MI</td><td>[14-16]</td>
+						        <td>P</td><td></td>
+						        <td>IN103</td><td  style="text-align:left">02</td></tr><tr style="background-color:#F0F0F0; border-bottom:#03C;border-width:3px">
+			    <td>115</td>
+			    <td>IF711BIN</td>
+			    <td>SEMINARIO DE INVESTIGACION II</td><td></td>
+			    <td>03</td>
+			    <td>OEES</td>
+				<td style="text-align:center;color:#636; font-size:10px;font-weight:bold">IF710</td>
+				<td style="text-align:center; color:#934; font-size:14px; font-weight:bold">10</td>
+				<td></td>
+				<td>PLAN CURRICULAR 2017</td>
+			  </tr>
+			  <tr>
+			    <td colspan="2" rowspan="3">&nbsp;</td>
+			    <td><strong>Docente</strong></td>
+			    <td><strong>Dia</strong></td>
+			    <td><strong>Horario</strong></td>
+			    <td><strong>Tipo</strong></td>
+			    <td><strong>Grupo</strong></td>
+			    <td><strong>Aula</strong></td>
+			    <td><strong>Horas</strong></td>
+			  </tr><tr><td>COSIO-LOAIZA-STEPHAN JHOEL</td><td >LU</td><td>[14-16]</td>
+						        <td>T</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">02</td></tr><tr><td>COSIO-LOAIZA-STEPHAN JHOEL</td><td >MI</td><td>[14-16]</td>
+						        <td>P</td><td></td>
+						        <td>IN107</td><td  style="text-align:left">02</td></tr></table>
+
+
+    </div>
+	
+
+  </div>
+  
+
+</div>
+
+
+
+<div id="footer">  
+     <div id="menutop"></div>
+     <div class="left_footer">
+  	  <a href="index.php?op=sitemap">Mapa del Sitio</a>
+      <a href="index.php?op=aboutus">Quienes Somos</a>
+      <a href="index.php?op=contactus">Contactate</a>
+     </div>
+    <div class="right_footer"><img src="images/logoccomputo_30.png" border="0" height="28" alt="" /></div>
+</div>
+
+<div class="poweredBy">Copyright 2022. &copy; All Rights Reserved<br/>
+	Sugerencias: <a href="mailto:ccomputo@unsaac.edu.pe">ccomputo@unsaac.edu.pe</a><br/>
+	Av. de la Cultura nro 733 - Pabell&oacute;n "A" <br/>Cusco - Per&uacute;<br/>Telf. 232398 Anexo 1506 - 1507
+</div>
+
+<!-- end of main_container -->
+</body>
+</html>
