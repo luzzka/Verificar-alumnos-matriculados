@@ -40,37 +40,67 @@ def get_student_info(soup_text):
     return df
 
 # =============================================================================================================================================
-def get_students_for_course(course_code, semester="2025-1"): 
-    """Extracts information of teachers and students from a given course."""
+def request_post(course_code, semester="2025-1"):
+    """Sends a POST request to the server."""
     url = "http://ccomputo.unsaac.edu.pe/index.php?op=alcurso"
     data = {
         "curso": course_code.upper(),  
         "semestre": semester,       
         "Consultar": "Consultar"   
     }
-
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"  # Add user agent
     }
-
     response = requests.post(url, data=data, headers=headers)
 
     if response.status_code == 200:
         # Check if the course is not found.
         if "No existe curso" in response.text:
-            print("Course not found")
             return None 
         
         soup = BeautifulSoup(response.content, "html.parser")
-
-        info_curso = get_course_info(soup)
-        print("Información del curso:")
-        for clave, valor in info_curso.items():
-            print(f"  {clave}: {valor}")
-
-        info_estudiantes = get_student_info(soup)
-        print(info_estudiantes.head())
-        
+        return soup
     else:
         print(f"Error: {response.status_code}")
         return None
+
+# =============================================================================================================================================
+def get_all_info_course(course_code, semester="2025-1"): 
+    """Extracts information of teachers and students from a given course."""
+    dict_info_course = {}
+
+    soup = request_post(course_code, semester)
+    
+    if soup is None:
+        print("No se pudo obtener la información del curso.")
+        return None
+    
+    info_curso = get_course_info(soup)
+    info_estudiantes = get_student_info(soup)
+
+    dict_info_course["Curso"] = info_curso
+    dict_info_course["alumnos"] = info_estudiantes
+
+    return dict_info_course
+
+# =============================================================================================================================================
+def extract_info_all_courses(list_courses, semester):
+    """Extracts information of courses and students."""
+    #all_info = {}
+    for course_code in list_courses:
+        soup = request_post(course_code, semester)
+        info_curso = get_course_info(soup)
+        mostrar_info_curso(info_curso)
+    #return all_info
+
+# =============================================================================================================================================
+def mostrar_info_curso(info_curso):
+    """Displays course information."""
+    print(info_curso["Curso"])
+    print(info_curso["Nombre"])
+
+# =============================================================================================================================================
+def mostrar_info_estudiantes(info_estudiantes):
+    """Displays student information."""
+    print("Información de los estudiantes:")
+    print(info_estudiantes.head)
